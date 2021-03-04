@@ -1,0 +1,31 @@
+body {
+    font-family: Helvetica;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: rgb(8, 3, 75);
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(241, 246, 247);
+    
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(192, 221, 236);
+}
+
+tbody td, th {
+    border: 1px solid white;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;    
+}
